@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE ScuoleMaterne SYSTEM "ScuoleMaterne.dtd">
+
+<ScuoleMaterne>
+    <ScuolaMaterna identificatoreInOpenStreetMap="257543657">
+        <Nome>Asilo Comunale di Pieve di Sinalunga</Nome>
+        <Comune>52033</Comune>
+        <Provincia>52</Provincia>
+        <Regione>9</Regione>
+        <AnnoInserimento>2008</AnnoInserimento>
+        <DataOraInserimento>2008-04-14T13:44:53Z</DataOraInserimento>
+        <Longitudine>11.741567</Longitudine>
+        <Latitudine>43.2160801</Latitudine>
+    </ScuolaMaterna>
+    <ScuolaMaterna identificatoreInOpenStreetMap="354540218">
+        <Nome>Muzio Gallo</Nome>
+        <Comune>42034</Comune>
+        <Provincia>42</Provincia>
+        <Regione>11</Regione>
+        <AnnoInserimento>2009</AnnoInserimento>
+        <DataOraInserimento>2009-03-07T20:15:55Z</DataOraInserimento>
+        <Longitudine>13.4768942</Longitudine>
+        <Latitudine>43.4841404</Latitudine>
+    </ScuolaMaterna>
+    <ScuolaMaterna identificatoreInOpenStreetMap="321846083">
+        <Nome>Santelli</Nome>
+        <Comune>49009</Comune>
+        <Provincia>49</Provincia>
+        <Regione>9</Regione>
+        <AnnoInserimento>2011</AnnoInserimento>
+        <DataOraInserimento>2011-10-28T14:35:10Z</DataOraInserimento>
+        <Longitudine>10.3153373</Longitudine>
+        <Latitudine>43.5583449</Latitudine>
+    </ScuolaMaterna>
+    <ScuolaMaterna identificatoreInOpenStreetMap="672982844">
+        <Nome>Scuola Attiva</Nome>
+        <Comune>58091</Comune>
+        <Provincia>58</Provincia>
+        <Regione>12</Regione>
+        <AnnoInserimento>2013</AnnoInserimento>
+        <DataOraInserimento>2013-03-01T11:40:18Z</DataOraInserimento>
+        <Longitudine>12.5371053</Longitudine>
+        <Latitudine>41.9441825</Latitudine>
+    </ScuolaMaterna>
+</ScuoleMaterne>

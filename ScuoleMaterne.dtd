@@ -1,0 +1,11 @@
+<!ELEMENT ScuoleMaterne (ScuolaMaterna*)>
+<!ELEMENT ScuolaMaterna (Nome, Comune, Provincia, Regione, AnnoInserimento, DataOraInserimento, Longitudine, Latitudine)>
+<!ATTLIST ScuolaMaterna identificatoreInOpenStreetMap CDATA #REQUIRED>
+<!ELEMENT Nome (#PCDATA)>
+<!ELEMENT Comune (#PCDATA)>
+<!ELEMENT Provincia (#PCDATA)>
+<!ELEMENT Regione (#PCDATA)>
+<!ELEMENT AnnoInserimento (#PCDATA)>
+<!ELEMENT DataOraInserimento (#PCDATA)>
+<!ELEMENT Longitudine (#PCDATA)>
+<!ELEMENT Latitudine (#PCDATA)>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="ScuoleMaterne">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="ScuolaMaterna" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="Nome" type="xs:string"/>
+                            <xs:element name="Comune" type="xs:string"/>
+                            <xs:element name="Provincia" type="xs:string"/>
+                            <xs:element name="Regione" type="xs:string"/>
+                            <xs:element name="AnnoInserimento" type="xs:string"/>
+                            <xs:element name="DataOraInserimento" type="xs:string"/>
+                            <xs:element name="Longitudine" type="xs:string"/>
+                            <xs:element name="Latitudine" type="xs:string"/>
+                        </xs:sequence>
+                        <xs:attribute name="identificatoreInOpenStreetMap" type="xs:string" use="required"/>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
