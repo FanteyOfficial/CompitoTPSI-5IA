@@ -10,32 +10,63 @@
                     body {
                         display: flex;
                         justify-content: center;
+                        font-family: Arial, sans-serif;
+                        background-color: #f2f2f2;
+                        margin: 0;
+                        padding: 0;
                     }
+                    
+                    .container {
+                        background-color: white;
+                        padding: 20px;
+                        border-radius: 10px;
+                        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                        width: 80%;
+                        margin-top: 20px;
+                    }
+                    
                     h1 {
                         text-align: center;
-                        color: white;
+                        color: #4CAF50;
                     }
+                    
                     table {
                         border-collapse: collapse;
-                        border-color: black;
                         width: 100%;
+                        margin-top: 20px;
                     }
+                    
                     th, td {
                         text-align: left;
-                        padding: 8px;
+                        padding: 12px;
                     }
-                    tr:nth-child(even){background-color: #f2f2f2}
+                    
+                    tr:nth-child(even) {
+                        background-color: #f2f2f2;
+                    }
+                    
                     th {
                         background-color: #4CAF50;
                         color: white;
                     }
-
-                    .container {
-                        background-color: gray;
-                        padding: 10px;
-                        border-radius: 10px;
-                        width: 80%;
+                    
+                    table, th, td {
+                        border: 1px solid #ddd;
                     }
+                    
+                    table th, table td {
+                        border: 1px solid #ddd;
+                    }
+                    
+                    table th {
+                        background-color: #4CAF50;
+                        color: white;
+                    }
+                    
+                    table tr:hover {
+                        background-color: #f5f5f5;
+                    }
+                    
                 </style>
                 <div class="container">
                     <h1>Scuole Materne</h1>
