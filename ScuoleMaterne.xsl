@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
     <xsl:output method="html" indent="yes"/>
     <xsl:template match="/">
@@ -7,9 +6,25 @@
                 <title>Scuole Materne</title>
             </head>
             <body>
+                <style>
+                    table {
+                        border-collapse: collapse;
+                        width: 100%;
+                    }
+                    th, td {
+                        text-align: left;
+                        padding: 8px;
+                    }
+                    tr:nth-child(even){background-color: #f2f2f2}
+                    th {
+                        background-color: #4CAF50;
+                        color: white;
+                    }
+                </style>
                 <h1>Scuole Materne</h1>
                 <table border="1">
                     <tr>
+                        <th>Classe</th>
                         <th>Nome</th>
                         <th>Comune</th>
                         <th>Provincia</th>
@@ -22,10 +37,13 @@
                     <xsl:for-each select="ScuoleMaterne/ScuolaMaterna">
                         <tr>
                             <td>
+                                <xsl:value-of select="Comune/Classe"/>
+                            </td>
+                            <td>
                                 <xsl:value-of select="Nome"/>
                             </td>
                             <td>
-                                <xsl:value-of select="Comune"/>
+                                <xsl:value-of select="Comune/@codiceComune"/>
                             </td>
                             <td>
                                 <xsl:value-of select="Provincia"/>

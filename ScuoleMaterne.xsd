@@ -7,7 +7,22 @@
                     <xs:complexType>
                         <xs:sequence>
                             <xs:element name="Nome" type="xs:string"/>
-                            <xs:element name="Comune" type="xs:string"/>
+                            <xs:element name="Comune">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="Classe">
+                                            <xs:complexType>
+                                                <xs:simpleContent>
+                                                    <xs:extension base="xs:string">
+                                                        <xs:attribute name="nome" type="xs:string" use="required"/>
+                                                    </xs:extension>
+                                                </xs:simpleContent>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                    <xs:attribute name="codiceComune" type="xs:string" use="required"/>
+                                </xs:complexType>
+                            </xs:element>
                             <xs:element name="Provincia" type="xs:string"/>
                             <xs:element name="Regione" type="xs:string"/>
                             <xs:element name="AnnoInserimento" type="xs:string"/>

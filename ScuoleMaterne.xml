@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="ScuoleMaterne.xsl"?>
 <!DOCTYPE ScuoleMaterne SYSTEM "ScuoleMaterne.dtd">
 
 <ScuoleMaterne>
     <ScuolaMaterna identificatoreInOpenStreetMap="257543657">
         <Nome>Asilo Comunale di Pieve di Sinalunga</Nome>
-        <Comune>52033</Comune>
+        <Comune codiceComune="52033">
+            <Classe nome="Lorenzo_1">5IA</Classe>
+        </Comune>
         <Provincia>52</Provincia>
         <Regione>9</Regione>
         <AnnoInserimento>2008</AnnoInserimento>
@@ -14,7 +17,9 @@
     </ScuolaMaterna>
     <ScuolaMaterna identificatoreInOpenStreetMap="354540218">
         <Nome>Muzio Gallo</Nome>
-        <Comune>42034</Comune>
+        <Comune codiceComune="42034">
+            <Classe nome="Lorenzo_2">5IA</Classe>
+        </Comune>
         <Provincia>42</Provincia>
         <Regione>11</Regione>
         <AnnoInserimento>2009</AnnoInserimento>
@@ -24,7 +29,9 @@
     </ScuolaMaterna>
     <ScuolaMaterna identificatoreInOpenStreetMap="321846083">
         <Nome>Santelli</Nome>
-        <Comune>49009</Comune>
+        <Comune codiceComune="49009">
+            <Classe nome="Lorenzo_3">5IA</Classe>
+        </Comune>
         <Provincia>49</Provincia>
         <Regione>9</Regione>
         <AnnoInserimento>2011</AnnoInserimento>
@@ -34,7 +41,9 @@
     </ScuolaMaterna>
     <ScuolaMaterna identificatoreInOpenStreetMap="672982844">
         <Nome>Scuola Attiva</Nome>
-        <Comune>58091</Comune>
+        <Comune codiceComune="58091">
+            <Classe nome="Lorenzo_4">5IA</Classe>
+        </Comune>
         <Provincia>58</Provincia>
         <Regione>12</Regione>
         <AnnoInserimento>2013</AnnoInserimento>
